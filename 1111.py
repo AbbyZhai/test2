@@ -11,4 +11,4 @@ def LowestPaymentInOneYear(balance, annualInterestRate,LowestPayment=10):
         LowestPayment = LowestPayment + 10
         return LowestPaymentInOneYear(balance, annualInterestRate,LowestPayment)
 
-print(LowestPaymentInOneYear(4773,0.2))
+print(LowestPaymentInOneYear(5000,0.2))
